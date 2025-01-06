@@ -23,7 +23,7 @@ box.send_keys(Keys.ENTER)
 #Password Section
 time.sleep(5)
 password = driver.find_element(By.XPATH, '//*[@id="inlineUserPassword"]')
-password.send_keys("Sandeep@123")
+password.send_keys("")
 password.send_keys(Keys.ENTER)
 
 
